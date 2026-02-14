@@ -1,0 +1,3 @@
+name = 'MADAN'
+
+print (name)
