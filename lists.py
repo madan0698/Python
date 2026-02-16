@@ -61,22 +61,52 @@
 
 # to avoid modifying both we can use copy command
 
-states = ['ka', 'kl', 'tn', 'ap']
+# states = ['ka', 'kl', 'tn', 'ap']
 
-south_states = states.copy()    
+# south_states = states.copy()    
 
-states.append('Te')
+# states.append('Te')
 
-print (f"States ===> {states}")    
-print (f"S_states===> {south_states}")
+# print (f"States ===> {states}")    
+# print (f"S_states===> {south_states}")
 
-#id 
+# #id 
 
-states = ['ka', 'kl', 'tn', 'ap']
+# states = ['ka', 'kl', 'tn', 'ap']
 
-south_states = states.copy()    
+# south_states = states.copy()    
 
-states.append('Te')
+# states.append('Te')
 
-print (f"States ===> {states} {id(states)}")    
-print (f"S_states===> {south_states} {id(south_states)}")
+# print (f"States ===> {states} {id(states)}")    
+# print (f"S_states===> {south_states} {id(south_states)}")
+
+
+# states = [["ka", "kl", "tn", "ap"], ["mp", "hr", "up", "dl"]]
+
+# n_states = states           #n_states = states.copy()
+
+# print (f"states id===> {id(states)}") 
+# print (f"northstates id===> {id(n_states)}")
+
+# states = [["ka", "kl", "tn", "ap"], ["mp", "hr", "up", "dl"]]
+
+# n_states = states[1]
+
+# print (f"states ===> {(states)}") 
+# print (f"northstates ===> {(n_states)}")
+
+
+#importent
+# import copy 
+
+# states = [["kA", "AP"], ["HR", "DL"]]
+
+# n_states = copy.deepcopy(states)
+
+# states[0].append(123)
+
+# print (f"states ===> {states}")
+# print (f"northstates ===> {n_states}")
+
+
