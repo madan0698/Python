@@ -59,7 +59,7 @@
 # print (f"S_states===> {south_states}")
 
 
-# to avoid modifying both we can use copy command
+# #to avoid modifying both we can use copy command
 
 # states = ['ka', 'kl', 'tn', 'ap']
 
@@ -97,7 +97,7 @@
 # print (f"northstates ===> {(n_states)}")
 
 
-#importent
+# #importent
 # import copy 
 
 # states = [["kA", "AP"], ["HR", "DL"]]
@@ -110,3 +110,38 @@
 # print (f"northstates ===> {n_states}")
 
 
+# str1 = "IT Defined, located in Bangalore, is a leading training provider offering interactive courses"
+
+# # str1= list(str1)           #it will list the one by one characters           
+# str1= str1.split()          #it will split words by words      
+
+# print (str1)
+
+
+#how to convert a list into a string we have to use join
+
+# str1 = "IT Defined, located in Bangalore, is a leading training provider offering interactive courses"
+
+# str2lst= str1.split()
+
+# print(str2lst) 
+
+# lst1 = ', ' .join(str2lst) 
+
+# print(lst1)
+
+
+# lst1= [11, 22, 33, 44, 55, 66, 77, 88, 99]
+# lst1.sort(reverse=True)
+# print(lst1)
+
+# # important 
+# lst1 = ["java-11", "java-22", "java-33"]
+
+# splitdata = lst1[0].split('java')[1]
+
+# splitdata = splitdata.zfill(4)
+
+# joineddata = f'java{splitdata}'
+
+# print(joineddata)
