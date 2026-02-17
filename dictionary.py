@@ -15,17 +15,26 @@
 
 # print(student_data)         #it will print last updated value, Dictionary is also ordered
 
-student_data= {
-    "Name": "Madan",
-    "Age": 27, 
-    "Skills": ["cricket","vollyball"],
-    "Parents Name":{
-        "fathername": "Nagendrappa",
-        "mothername": "Renuka",
-    }
-}
+# student_data= {
+#     "Name": "Madan",
+#     "Age": 27, 
+#     "Skills": ["cricket","vollyball"],
+#     "Parents Name":{
+#         "fathername": "Nagendrappa",
+#         "mothername": "Renuka",
+#     }
+# }
 
-print(student_data) 
-print(type(student_data))
+# print(student_data) 
+# print(type(student_data))
 
+# list= [('India','Delhi'),('UK','London')]
 
+# dict1 = dict(list)
+
+# print(dict1)
+
+states = ['Karnataka', 'Bihar', 'Maharastra', 'Tamilnadu']
+capital = ['Bengaluru', 'Patna', 'Mumbai', 'Chennai']
+
+print(dict(zip(states,capital))) 
