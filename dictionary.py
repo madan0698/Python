@@ -55,4 +55,4 @@ print(student_data)
 # states = ['Karnataka', 'Bihar', 'Maharastra', 'Tamilnadu']
 # capital = ['Bengaluru', 'Patna', 'Mumbai', 'Chennai']
 
-# print(dict(zip(states,capital)))ctionary.py
+# print(dict(zip(states,capital)))
