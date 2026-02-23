@@ -98,6 +98,62 @@
 # else:
 #     print("num1 and num3 are not equal")
 
+
 # Nested if statement
 
-if 
+# num1 = 13
+# num2 = 14 
+# num3 = 13
+
+# if num1 < num2: 
+#     if num1 > num3:
+#         print("num1 is greater")
+#     elif num1 == num3:
+#         print("num1 and num3 are equal or same")
+#     else:
+#         print("num3 is greater")
+
+# elif num2 > num3:
+#     if num2 > num1:
+#         print("num2 is greater than num1")
+#     elif num2 == num1:
+#         print("num1 and num2 are equal")
+#     else:
+#         print("num 1 is greater")
+
+# num1 = 13
+# num2 = 16
+# num3 = 16
+
+# if num1 > num2:
+#     if num1 > num3:
+#         print("num1 is gratest")
+#     elif num1 == num3:
+#         print("num1 and num3 are equal and greater than 2")
+#     else:
+#         print("num3 is gratest")
+# elif num1 == num2:
+#     if num1 > num3:
+#         print("num1 and num2 are equal and greater than 3")
+#     else:
+#         print("num3 is gratest") 
+
+
+# Ternary operators
+
+num1 = 10 
+
+# if num1 % 2 == 0: 
+#     out = "even"
+# else: 
+#     out = "odd"
+
+# print(out) 
+
+out = "even" if num1 % 2 == 0  else "odd"
+
+print (out)
+
+# print (out*10)   # it will print output 10times
+
+
