@@ -61,16 +61,45 @@ weeks = ["monday", "tuesday", "saturday", "friday", "wednesday", "thursday", "su
 
 # using break statement
     
-for week in weeks:
+# for week in weeks:
 
-    print (week)
+#     print (week)
     
-    print("ok1")
-    break                      # break keyword
+#     print("ok1")
+#     break               # break keyword
 
-print("execution completed")
+# else:
+#     print("execution completed")
 
-    
+
+# software = ["java", "python", "c++"]
+
+# for i in software:
+#     print(f"installing software {i}.....")
+
+
+# for i in []:
+#     print('hi')
+# else:
+#     print("executed")
+
+
+# x = [1, 2, 3, 4]
+# for i in x:
+#     x.remove(i)
+
+# print(x)
+
+# x = [1, 2, 3, 4]
+# counter = 0
+
+# for i in x:
+#     x.remove(i)
+#     print(i)
+
+# print(x)
+
+
 
 
 
