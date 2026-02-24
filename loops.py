@@ -100,6 +100,34 @@ weeks = ["monday", "tuesday", "saturday", "friday", "wednesday", "thursday", "su
 # print(x)
 
 
+# data = [1]
+# for i in data: 
+#     data.append(i+1)
+#     if len(data)== 5:
+#         break
+#     print(data)
 
 
+# rows = 5
+# cols = 5
 
+# for row in range(rows):
+#     for col in range(cols):
+#         print(row,col)
+
+# rows = 4
+# cols = 4
+
+# for row in range(rows):
+#     for col in range(cols):
+#         print("x", end=" ")
+#     print("")
+
+
+rows = 4
+cols = 4
+
+for row in range(rows):
+    for col in range(row):
+        print(col, end=" ")
+    print("")
