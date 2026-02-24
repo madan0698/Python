@@ -29,7 +29,7 @@
 #      print(j) 
 # print (j)
 
-weeks = ["monday", "tuesday", "saturday", "friday", "wednesday", "thursday", "sunday"]
+# weeks = ["monday", "tuesday", "saturday", "friday", "wednesday", "thursday", "sunday"]
 
 
 # for week in weeks:
