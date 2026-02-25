@@ -145,11 +145,89 @@
 # someNum1()
 # someNum2()
 
-def someNum1():
-    global num1
-    num1 = 20
-    print(f"insidefun ==> {num1}")   
+# def someNum1():
+#     global num1
+#     num1 = 20
+#     print(f"insidefun ==> {num1}")   
 
-someNum1()
+# someNum1()
 
-print(f"outsidefun ==> {num1}")
+# print(f"outsidefun ==> {num1}")
+
+
+# def sqCube(num):
+#     return num ** 2, num ** 3
+
+# num = 10
+
+# # square, cube= sqCube(num)
+
+# # print(f"the square root of {num} is {square} and it cube is {cube}")
+
+# out = sqCube(num)
+
+# print(type(out), out)
+
+
+# Recursion
+
+# def square(num):
+#     return num ** 2
+
+# def cube(num):
+#     return num ** 3
+
+# def main(data):
+#     out1= square(data)
+#     out2= cube(data)
+    
+#     print(f"the square of the {data} is {out1}")
+#     print(f"the square of the {data} is {out2}")
+
+# main(5)
+
+
+# def factorial(n):
+#     if n <= 1:
+#         return 1
+#     return n * factorial(n-1)
+
+# out=factorial(6)
+
+# print(out)
+
+
+# lambda
+
+# add = lambda n1, n2 : n1 + n2
+
+# out= add(10, 210)
+
+# print(out)
+
+
+# data = (18,24,17,29,22,14)
+
+# voter_check = lambda x : x >= 18
+
+# for d in data:
+#     print(f"Is the valied {d} for voting? ==> {voter_check(d)}")
+
+
+#closer function
+
+def main():
+    counter = 0 
+    def increment():
+        nonlocal counter
+        counter += 1
+        return counter
+    
+    return increment
+
+inner = main()
+
+print(inner())
+print(inner())
+print(inner())
+print(inner())
